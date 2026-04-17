@@ -62,4 +62,4 @@ jobs:
             -t "${IMAGEN}:${{ inputs.image-tag }}" \
             -t "${IMAGEN}:latest" \
             .
-        docker push --all-tags "${IMAGEN}"
+          docker push --all-tags "${IMAGEN}"
